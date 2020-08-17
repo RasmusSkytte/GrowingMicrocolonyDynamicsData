@@ -1,0 +1,634 @@
+<OME xmlns="http://www.openmicroscopy.org/Schemas/OME/2016-06" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openmicroscopy.org/Schemas/OME/2016-06 http://www.openmicroscopy.org/Schemas/OME/2016-06/ome.xsd">
+<Instrument ID="Instrument:0">
+<Detector ID="Detector:0:0" Model="SCC-01758" Type="Other"/>
+<Objective Correction="Other" ID="Objective:0:0" Immersion="Other"/>
+<Image ID="Image:0" Name="Data_Pre_Phage.nd2 (series 01)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:0" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:0:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:0:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:0:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:0:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="16.269839984210208" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="25355.0" PositionXUnit="reference frame" PositionY="-18961.100000000002" PositionYUnit="reference frame" PositionZ="3042.675" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="16.269839984210208" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="25355.0" PositionXUnit="reference frame" PositionY="-18961.100000000002" PositionYUnit="reference frame" PositionZ="3042.675" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="16.269839984210208" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="25355.0" PositionXUnit="reference frame" PositionY="-18961.100000000002" PositionYUnit="reference frame" PositionZ="3042.675" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="16.269839984210208" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="25355.0" PositionXUnit="reference frame" PositionY="-18961.100000000002" PositionYUnit="reference frame" PositionZ="3042.675" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:1" Name="Data_Pre_Phage.nd2 (series 02)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:1" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:1:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:1:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:1:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:1:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="45.72877430921048" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="26497.0" PositionXUnit="reference frame" PositionY="-23920.4" PositionYUnit="reference frame" PositionZ="3128.8250000000003" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="45.72877430921048" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="26497.0" PositionXUnit="reference frame" PositionY="-23920.4" PositionYUnit="reference frame" PositionZ="3128.8250000000003" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="45.72877430921048" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="26497.0" PositionXUnit="reference frame" PositionY="-23920.4" PositionYUnit="reference frame" PositionZ="3128.8250000000003" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="45.72877430921048" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="26497.0" PositionXUnit="reference frame" PositionY="-23920.4" PositionYUnit="reference frame" PositionZ="3128.8250000000003" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:2" Name="Data_Pre_Phage.nd2 (series 03)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:2" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:2:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:2:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:2:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:2:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="80.58748813421093" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="42120.700000000004" PositionXUnit="reference frame" PositionY="-32895.4" PositionYUnit="reference frame" PositionZ="2909.025" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="80.58748813421093" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="42120.700000000004" PositionXUnit="reference frame" PositionY="-32895.4" PositionYUnit="reference frame" PositionZ="2909.025" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="80.58748813421093" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="42120.700000000004" PositionXUnit="reference frame" PositionY="-32895.4" PositionYUnit="reference frame" PositionZ="2909.025" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="80.58748813421093" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="42120.700000000004" PositionXUnit="reference frame" PositionY="-32895.4" PositionYUnit="reference frame" PositionZ="2909.025" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:3" Name="Data_Pre_Phage.nd2 (series 04)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:3" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:3:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:3:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:3:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:3:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="109.17169998421147" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="45969.1" PositionXUnit="reference frame" PositionY="-30486.9" PositionYUnit="reference frame" PositionZ="2891.0750000000003" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="109.17169998421147" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="45969.1" PositionXUnit="reference frame" PositionY="-30486.9" PositionYUnit="reference frame" PositionZ="2891.0750000000003" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="109.17169998421147" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="45969.1" PositionXUnit="reference frame" PositionY="-30486.9" PositionYUnit="reference frame" PositionZ="2891.0750000000003" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="109.17169998421147" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="45969.1" PositionXUnit="reference frame" PositionY="-30486.9" PositionYUnit="reference frame" PositionZ="2891.0750000000003" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:4" Name="Data_Pre_Phage.nd2 (series 05)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:4" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:4:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:4:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:4:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:4:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="139.35018625921012" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="53999.0" PositionXUnit="reference frame" PositionY="-19261.600000000002" PositionYUnit="reference frame" PositionZ="3023.8250000000003" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="139.35018625921012" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="53999.0" PositionXUnit="reference frame" PositionY="-19261.600000000002" PositionYUnit="reference frame" PositionZ="3023.8250000000003" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="139.35018625921012" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="53999.0" PositionXUnit="reference frame" PositionY="-19261.600000000002" PositionYUnit="reference frame" PositionZ="3023.8250000000003" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="139.35018625921012" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="53999.0" PositionXUnit="reference frame" PositionY="-19261.600000000002" PositionYUnit="reference frame" PositionZ="3023.8250000000003" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:5" Name="Data_Pre_Phage.nd2 (series 06)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:5" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:5:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:5:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:5:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:5:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="182.92824933421053" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-12056.7" PositionXUnit="reference frame" PositionY="-14762.4" PositionYUnit="reference frame" PositionZ="2900.85" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="182.92824933421053" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="-12056.7" PositionXUnit="reference frame" PositionY="-14762.4" PositionYUnit="reference frame" PositionZ="2900.85" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="182.92824933421053" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="-12056.7" PositionXUnit="reference frame" PositionY="-14762.4" PositionYUnit="reference frame" PositionZ="2900.85" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="182.92824933421053" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-12056.7" PositionXUnit="reference frame" PositionY="-14762.4" PositionYUnit="reference frame" PositionZ="2900.85" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:6" Name="Data_Pre_Phage.nd2 (series 07)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:6" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:6:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:6:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:6:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:6:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="216.4482275342103" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="13196.5" PositionXUnit="reference frame" PositionY="-21537.600000000002" PositionYUnit="reference frame" PositionZ="2855.275" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="216.4482275342103" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="13196.5" PositionXUnit="reference frame" PositionY="-21537.600000000002" PositionYUnit="reference frame" PositionZ="2855.275" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="216.4482275342103" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="13196.5" PositionXUnit="reference frame" PositionY="-21537.600000000002" PositionYUnit="reference frame" PositionZ="2855.275" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="216.4482275342103" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="13196.5" PositionXUnit="reference frame" PositionY="-21537.600000000002" PositionYUnit="reference frame" PositionZ="2855.275" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:7" Name="Data_Pre_Phage.nd2 (series 08)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:7" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:7:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:7:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:7:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:7:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="251.1621332342103" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-13166.300000000001" PositionXUnit="reference frame" PositionY="-12851.2" PositionYUnit="reference frame" PositionZ="3418.55" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="251.1621332342103" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="-13166.300000000001" PositionXUnit="reference frame" PositionY="-12851.2" PositionYUnit="reference frame" PositionZ="3418.55" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="251.1621332342103" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="-13166.300000000001" PositionXUnit="reference frame" PositionY="-12851.2" PositionYUnit="reference frame" PositionZ="3418.55" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="251.1621332342103" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-13166.300000000001" PositionXUnit="reference frame" PositionY="-12851.2" PositionYUnit="reference frame" PositionZ="3418.55" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:8" Name="Data_Pre_Phage.nd2 (series 09)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:8" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:8:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:8:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:8:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:8:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="281.55879578421076" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="4378.8" PositionXUnit="reference frame" PositionY="-21940.100000000002" PositionYUnit="reference frame" PositionZ="2863.4" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="281.55879578421076" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="4378.8" PositionXUnit="reference frame" PositionY="-21940.100000000002" PositionYUnit="reference frame" PositionZ="2863.4" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="281.55879578421076" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="4378.8" PositionXUnit="reference frame" PositionY="-21940.100000000002" PositionYUnit="reference frame" PositionZ="2863.4" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="281.55879578421076" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="4378.8" PositionXUnit="reference frame" PositionY="-21940.100000000002" PositionYUnit="reference frame" PositionZ="2863.4" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:9" Name="Data_Pre_Phage.nd2 (series 10)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:9" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:9:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:9:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:9:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:9:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="310.1766158092115" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-7884.0" PositionXUnit="reference frame" PositionY="-31224.7" PositionYUnit="reference frame" PositionZ="2882.4" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="310.1766158092115" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="-7884.0" PositionXUnit="reference frame" PositionY="-31224.7" PositionYUnit="reference frame" PositionZ="2882.4" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="310.1766158092115" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="-7884.0" PositionXUnit="reference frame" PositionY="-31224.7" PositionYUnit="reference frame" PositionZ="2882.4" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="310.1766158092115" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-7884.0" PositionXUnit="reference frame" PositionY="-31224.7" PositionYUnit="reference frame" PositionZ="2882.4" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:10" Name="Data_Pre_Phage.nd2 (series 11)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:10" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:10:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:10:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:10:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:10:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="348.92855903421156" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-28054.600000000002" PositionXUnit="reference frame" PositionY="-8649.6" PositionYUnit="reference frame" PositionZ="3036.7000000000003" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="348.92855903421156" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="-28054.600000000002" PositionXUnit="reference frame" PositionY="-8649.6" PositionYUnit="reference frame" PositionZ="3036.7000000000003" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="348.92855903421156" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="-28054.600000000002" PositionXUnit="reference frame" PositionY="-8649.6" PositionYUnit="reference frame" PositionZ="3036.7000000000003" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="348.92855903421156" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-28054.600000000002" PositionXUnit="reference frame" PositionY="-8649.6" PositionYUnit="reference frame" PositionZ="3036.7000000000003" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:11" Name="Data_Pre_Phage.nd2 (series 12)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:11" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:11:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:11:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:11:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:11:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="392.207032484211" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-50607.4" PositionXUnit="reference frame" PositionY="-11810.0" PositionYUnit="reference frame" PositionZ="3327.1" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="392.207032484211" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="-50607.4" PositionXUnit="reference frame" PositionY="-11810.0" PositionYUnit="reference frame" PositionZ="3327.1" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="392.207032484211" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="-50607.4" PositionXUnit="reference frame" PositionY="-11810.0" PositionYUnit="reference frame" PositionZ="3327.1" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="392.207032484211" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-50607.4" PositionXUnit="reference frame" PositionY="-11810.0" PositionYUnit="reference frame" PositionZ="3327.1" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:12" Name="Data_Pre_Phage.nd2 (series 13)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:12" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:12:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:12:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:12:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:12:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="429.25534410921114" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-37314.700000000004" PositionXUnit="reference frame" PositionY="-6667.1" PositionYUnit="reference frame" PositionZ="3058.8" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="429.25534410921114" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="-37314.700000000004" PositionXUnit="reference frame" PositionY="-6667.1" PositionYUnit="reference frame" PositionZ="3058.8" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="429.25534410921114" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="-37314.700000000004" PositionXUnit="reference frame" PositionY="-6667.1" PositionYUnit="reference frame" PositionZ="3058.8" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="429.25534410921114" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-37314.700000000004" PositionXUnit="reference frame" PositionY="-6667.1" PositionYUnit="reference frame" PositionZ="3058.8" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:13" Name="Data_Pre_Phage.nd2 (series 14)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:13" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:13:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:13:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:13:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:13:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="479.3414701342117" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-46637.4" PositionXUnit="reference frame" PositionY="-9198.6" PositionYUnit="reference frame" PositionZ="3060.8" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="479.3414701342117" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="-46637.4" PositionXUnit="reference frame" PositionY="-9198.6" PositionYUnit="reference frame" PositionZ="3060.8" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="479.3414701342117" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="-46637.4" PositionXUnit="reference frame" PositionY="-9198.6" PositionYUnit="reference frame" PositionZ="3060.8" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="479.3414701342117" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-46637.4" PositionXUnit="reference frame" PositionY="-9198.6" PositionYUnit="reference frame" PositionZ="3060.8" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:14" Name="Data_Pre_Phage.nd2 (series 15)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:14" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:14:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:14:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:14:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:14:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="513.7046838842109" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-38836.8" PositionXUnit="reference frame" PositionY="-15787.4" PositionYUnit="reference frame" PositionZ="2941.75" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="513.7046838842109" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="-38836.8" PositionXUnit="reference frame" PositionY="-15787.4" PositionYUnit="reference frame" PositionZ="2941.75" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="513.7046838842109" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="-38836.8" PositionXUnit="reference frame" PositionY="-15787.4" PositionYUnit="reference frame" PositionZ="2941.75" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="513.7046838842109" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-38836.8" PositionXUnit="reference frame" PositionY="-15787.4" PositionYUnit="reference frame" PositionZ="2941.75" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:15" Name="Data_Pre_Phage.nd2 (series 16)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:15" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:15:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:15:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:15:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:15:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="555.132968109211" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="33695.4" PositionXUnit="reference frame" PositionY="29559.8" PositionYUnit="reference frame" PositionZ="2811.625" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="555.132968109211" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="33695.4" PositionXUnit="reference frame" PositionY="29559.8" PositionYUnit="reference frame" PositionZ="2811.625" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="555.132968109211" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="33695.4" PositionXUnit="reference frame" PositionY="29559.8" PositionYUnit="reference frame" PositionZ="2811.625" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="555.132968109211" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="33695.4" PositionXUnit="reference frame" PositionY="29559.8" PositionYUnit="reference frame" PositionZ="2811.625" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:16" Name="Data_Pre_Phage.nd2 (series 17)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:16" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:16:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:16:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:16:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:16:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="581.9854858592115" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="33726.7" PositionXUnit="reference frame" PositionY="31527.7" PositionYUnit="reference frame" PositionZ="3152.7000000000003" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="581.9854858592115" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="33726.7" PositionXUnit="reference frame" PositionY="31527.7" PositionYUnit="reference frame" PositionZ="3152.7000000000003" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="581.9854858592115" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="33726.7" PositionXUnit="reference frame" PositionY="31527.7" PositionYUnit="reference frame" PositionZ="3152.7000000000003" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="581.9854858592115" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="33726.7" PositionXUnit="reference frame" PositionY="31527.7" PositionYUnit="reference frame" PositionZ="3152.7000000000003" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:17" Name="Data_Pre_Phage.nd2 (series 18)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:17" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:17:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:17:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:17:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:17:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="609.637332109211" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="35434.3" PositionXUnit="reference frame" PositionY="32384.9" PositionYUnit="reference frame" PositionZ="2930.1" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="609.637332109211" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="35434.3" PositionXUnit="reference frame" PositionY="32384.9" PositionYUnit="reference frame" PositionZ="2930.1" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="609.637332109211" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="35434.3" PositionXUnit="reference frame" PositionY="32384.9" PositionYUnit="reference frame" PositionZ="2930.1" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="609.637332109211" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="35434.3" PositionXUnit="reference frame" PositionY="32384.9" PositionYUnit="reference frame" PositionZ="2930.1" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:18" Name="Data_Pre_Phage.nd2 (series 19)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:18" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:18:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:18:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:18:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:18:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="639.3385834092106" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="26139.100000000002" PositionXUnit="reference frame" PositionY="18382.100000000002" PositionYUnit="reference frame" PositionZ="3034.65" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="639.3385834092106" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="26139.100000000002" PositionXUnit="reference frame" PositionY="18382.100000000002" PositionYUnit="reference frame" PositionZ="3034.65" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="639.3385834092106" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="26139.100000000002" PositionXUnit="reference frame" PositionY="18382.100000000002" PositionYUnit="reference frame" PositionZ="3034.65" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="639.3385834092106" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="26139.100000000002" PositionXUnit="reference frame" PositionY="18382.100000000002" PositionYUnit="reference frame" PositionZ="3034.65" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:19" Name="Data_Pre_Phage.nd2 (series 20)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:19" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:19:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:19:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:19:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:19:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="669.0974130842109" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="34042.2" PositionXUnit="reference frame" PositionY="32878.0" PositionYUnit="reference frame" PositionZ="2848.4" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="669.0974130842109" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="34042.2" PositionXUnit="reference frame" PositionY="32878.0" PositionYUnit="reference frame" PositionZ="2848.4" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="669.0974130842109" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="34042.2" PositionXUnit="reference frame" PositionY="32878.0" PositionYUnit="reference frame" PositionZ="2848.4" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="669.0974130842109" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="34042.2" PositionXUnit="reference frame" PositionY="32878.0" PositionYUnit="reference frame" PositionZ="2848.4" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:20" Name="Data_Pre_Phage.nd2 (series 21)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:20" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:20:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:20:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:20:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:20:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="706.114246609211" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-12044.4" PositionXUnit="reference frame" PositionY="12943.7" PositionYUnit="reference frame" PositionZ="2956.15" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="706.114246609211" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="-12044.4" PositionXUnit="reference frame" PositionY="12943.7" PositionYUnit="reference frame" PositionZ="2956.15" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="706.114246609211" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="-12044.4" PositionXUnit="reference frame" PositionY="12943.7" PositionYUnit="reference frame" PositionZ="2956.15" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="706.114246609211" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-12044.4" PositionXUnit="reference frame" PositionY="12943.7" PositionYUnit="reference frame" PositionZ="2956.15" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:21" Name="Data_Pre_Phage.nd2 (series 22)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:21" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:21:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:21:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:21:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:21:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="736.3717197342105" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-5099.1" PositionXUnit="reference frame" PositionY="12211.6" PositionYUnit="reference frame" PositionZ="2885.2000000000003" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="736.3717197342105" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="-5099.1" PositionXUnit="reference frame" PositionY="12211.6" PositionYUnit="reference frame" PositionZ="2885.2000000000003" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="736.3717197342105" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="-5099.1" PositionXUnit="reference frame" PositionY="12211.6" PositionYUnit="reference frame" PositionZ="2885.2000000000003" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="736.3717197342105" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-5099.1" PositionXUnit="reference frame" PositionY="12211.6" PositionYUnit="reference frame" PositionZ="2885.2000000000003" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:22" Name="Data_Pre_Phage.nd2 (series 23)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:22" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:22:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:22:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:22:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:22:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="763.8902345342115" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-645.5" PositionXUnit="reference frame" PositionY="4874.7" PositionYUnit="reference frame" PositionZ="3012.375" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="763.8902345342115" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="-645.5" PositionXUnit="reference frame" PositionY="4874.7" PositionYUnit="reference frame" PositionZ="3012.375" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="763.8902345342115" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="-645.5" PositionXUnit="reference frame" PositionY="4874.7" PositionYUnit="reference frame" PositionZ="3012.375" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="763.8902345342115" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-645.5" PositionXUnit="reference frame" PositionY="4874.7" PositionYUnit="reference frame" PositionZ="3012.375" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:23" Name="Data_Pre_Phage.nd2 (series 24)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:23" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:23:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:23:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:23:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:23:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="793.7536757842116" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-11511.6" PositionXUnit="reference frame" PositionY="25147.4" PositionYUnit="reference frame" PositionZ="2891.15" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="793.7536757842116" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="-11511.6" PositionXUnit="reference frame" PositionY="25147.4" PositionYUnit="reference frame" PositionZ="2891.15" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="793.7536757842116" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="-11511.6" PositionXUnit="reference frame" PositionY="25147.4" PositionYUnit="reference frame" PositionZ="2891.15" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="793.7536757842116" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-11511.6" PositionXUnit="reference frame" PositionY="25147.4" PositionYUnit="reference frame" PositionZ="2891.15" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:24" Name="Data_Pre_Phage.nd2 (series 25)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:24" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:24:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:24:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:24:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:24:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="821.6296897092108" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-8794.0" PositionXUnit="reference frame" PositionY="19409.3" PositionYUnit="reference frame" PositionZ="2997.25" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="821.6296897092108" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="-8794.0" PositionXUnit="reference frame" PositionY="19409.3" PositionYUnit="reference frame" PositionZ="2997.25" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="821.6296897092108" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="-8794.0" PositionXUnit="reference frame" PositionY="19409.3" PositionYUnit="reference frame" PositionZ="2997.25" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="821.6296897092108" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-8794.0" PositionXUnit="reference frame" PositionY="19409.3" PositionYUnit="reference frame" PositionZ="2997.25" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:25" Name="Data_Pre_Phage.nd2 (series 26)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:25" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:25:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:25:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:25:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:25:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="863.1489608592111" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-37912.6" PositionXUnit="reference frame" PositionY="5129.3" PositionYUnit="reference frame" PositionZ="3287.925" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="863.1489608592111" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="-37912.6" PositionXUnit="reference frame" PositionY="5129.3" PositionYUnit="reference frame" PositionZ="3287.925" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="863.1489608592111" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="-37912.6" PositionXUnit="reference frame" PositionY="5129.3" PositionYUnit="reference frame" PositionZ="3287.925" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="863.1489608592111" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-37912.6" PositionXUnit="reference frame" PositionY="5129.3" PositionYUnit="reference frame" PositionZ="3287.925" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:26" Name="Data_Pre_Phage.nd2 (series 27)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:26" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:26:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:26:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:26:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:26:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="896.8579407092109" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-48078.9" PositionXUnit="reference frame" PositionY="9890.2" PositionYUnit="reference frame" PositionZ="2996.375" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="896.8579407092109" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="-48078.9" PositionXUnit="reference frame" PositionY="9890.2" PositionYUnit="reference frame" PositionZ="2996.375" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="896.8579407092109" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="-48078.9" PositionXUnit="reference frame" PositionY="9890.2" PositionYUnit="reference frame" PositionZ="2996.375" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="896.8579407092109" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-48078.9" PositionXUnit="reference frame" PositionY="9890.2" PositionYUnit="reference frame" PositionZ="2996.375" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:27" Name="Data_Pre_Phage.nd2 (series 28)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:27" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:27:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:27:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:27:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:27:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="932.1410395842101" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-35943.6" PositionXUnit="reference frame" PositionY="4920.900000000001" PositionYUnit="reference frame" PositionZ="3086.275" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="932.1410395842101" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="-35943.6" PositionXUnit="reference frame" PositionY="4920.900000000001" PositionYUnit="reference frame" PositionZ="3086.275" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="932.1410395842101" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="-35943.6" PositionXUnit="reference frame" PositionY="4920.900000000001" PositionYUnit="reference frame" PositionZ="3086.275" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="932.1410395842101" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-35943.6" PositionXUnit="reference frame" PositionY="4920.900000000001" PositionYUnit="reference frame" PositionZ="3086.275" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:28" Name="Data_Pre_Phage.nd2 (series 29)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:28" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:28:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:28:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:28:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:28:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="963.2710085092112" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-37907.0" PositionXUnit="reference frame" PositionY="5111.8" PositionYUnit="reference frame" PositionZ="3277.6" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="963.2710085092112" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="-37907.0" PositionXUnit="reference frame" PositionY="5111.8" PositionYUnit="reference frame" PositionZ="3277.6" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="963.2710085092112" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="-37907.0" PositionXUnit="reference frame" PositionY="5111.8" PositionYUnit="reference frame" PositionZ="3277.6" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="963.2710085092112" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-37907.0" PositionXUnit="reference frame" PositionY="5111.8" PositionYUnit="reference frame" PositionZ="3277.6" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
+<Image ID="Image:29" Name="Data_Pre_Phage.nd2 (series 30)">
+<InstrumentRef ID="Instrument:0"/>
+<ObjectiveSettings ID="Objective:0:0" RefractiveIndex="1.0"/>
+<Pixels BigEndian="false" DimensionOrder="XYCZT" ID="Pixels:29" Interleaved="false" PhysicalSizeX="0.65" PhysicalSizeXUnit="µm" PhysicalSizeY="0.65" PhysicalSizeYUnit="µm" SignificantBits="16" SizeC="4" SizeT="1" SizeX="2560" SizeY="2160" SizeZ="1" Type="uint16">
+<Channel Color="-1" ID="Channel:29:0" Name="Rasmus_BF" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-16776961" ID="Channel:29:1" Name="Rasmus_mScarlett" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1962999553" EmissionWavelength="534.5" EmissionWavelengthUnit="nm" ID="Channel:29:2" Name="Rasmus_GFP2" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<Channel Color="-1" ID="Channel:29:3" Name="Mono" SamplesPerPixel="1">
+<DetectorSettings ID="Detector:0:0"/>
+<LightPath/>
+<MetadataOnly/>
+<Plane DeltaT="994.0207917342111" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-44223.700000000004" PositionXUnit="reference frame" PositionY="5467.400000000001" PositionYUnit="reference frame" PositionZ="2949.775" PositionZUnit="reference frame" TheC="0" TheT="0" TheZ="0"/>
+<Plane DeltaT="994.0207917342111" DeltaTUnit="s" ExposureTime="2.0" ExposureTimeUnit="s" PositionX="-44223.700000000004" PositionXUnit="reference frame" PositionY="5467.400000000001" PositionYUnit="reference frame" PositionZ="2949.775" PositionZUnit="reference frame" TheC="1" TheT="0" TheZ="0"/>
+<Plane DeltaT="994.0207917342111" DeltaTUnit="s" ExposureTime="1.0" ExposureTimeUnit="s" PositionX="-44223.700000000004" PositionXUnit="reference frame" PositionY="5467.400000000001" PositionYUnit="reference frame" PositionZ="2949.775" PositionZUnit="reference frame" TheC="2" TheT="0" TheZ="0"/>
+<Plane DeltaT="994.0207917342111" DeltaTUnit="s" ExposureTime="0.029" ExposureTimeUnit="s" PositionX="-44223.700000000004" PositionXUnit="reference frame" PositionY="5467.400000000001" PositionYUnit="reference frame" PositionZ="2949.775" PositionZUnit="reference frame" TheC="3" TheT="0" TheZ="0"/>
