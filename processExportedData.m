@@ -484,4 +484,4 @@ parfor k = 1:nT*nC
     end
 end
 
-save([dpath '/data.mat'], 'TT', 'dT', 'BG_GFP', 'MAX_GFP', 'radius', 'GFP_radius', 'GFP_radius_0_50', 'GFP_radius_0_60', 'GFP_radius_0_70', 'GFP_radius_0_80', 'GFP_radius_0_90', 'GFP_radius_1_00', 'GFP_radius_1_10', 'GFP_radius_1_20', 'GFP_radius_1_30', 'GFP_radius_1_40', 'GFP_radius_1_50', 'GFP_radius_1_60', 'GFP_radius_1_70', 'GFP_radius_1_80', 'GFP_radius_1_90', 'GFP_radius_2_00', 'GFP_radius_2_10', 'GFP_radius_2_20', 'GFP_radius_2_30', 'GFP_radius_2_40', 'GFP_radius_2_50', 'GFP_radius_2_60', 'GFP_radius_2_70', 'GFP_radius_2_80', 'GFP_radius_2_90', 'GFP_radius_3_00')
+save([dpath '/data.mat'], 'TT', 'dT', 'BG_GFP', 'MAX_GFP', 'radius', 'GFP_radius', 'GFP_radius_1_00', 'GFP_radius_1_10', 'GFP_radius_1_20', 'GFP_radius_1_30', 'GFP_radius_1_40', 'GFP_radius_1_50', 'GFP_radius_1_60', 'GFP_radius_1_70', 'GFP_radius_1_80', 'GFP_radius_1_90', 'GFP_radius_2_00', 'GFP_radius_2_10', 'GFP_radius_2_20', 'GFP_radius_2_30', 'GFP_radius_2_40', 'GFP_radius_2_50')
