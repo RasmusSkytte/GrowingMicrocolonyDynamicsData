@@ -245,23 +245,12 @@ end
 % Next determine the GFP radius of all images %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Prepare radius array
+thresholds = unique([1:0.1:2.5 1.8:0.025:2.0]); % Adding extra fidelity around where \nu seems to be
+
 GFP_radius = nan(nT, nC);
-GFP_radius_1_00 = nan(nT, nC);
-GFP_radius_1_10 = nan(nT, nC);
-GFP_radius_1_20 = nan(nT, nC);
-GFP_radius_1_30 = nan(nT, nC);
-GFP_radius_1_40 = nan(nT, nC);
-GFP_radius_1_50 = nan(nT, nC);
-GFP_radius_1_60 = nan(nT, nC);
-GFP_radius_1_70 = nan(nT, nC);
-GFP_radius_1_80 = nan(nT, nC);
-GFP_radius_1_90 = nan(nT, nC);
-GFP_radius_2_00 = nan(nT, nC);
-GFP_radius_2_10 = nan(nT, nC);
-GFP_radius_2_20 = nan(nT, nC);
-GFP_radius_2_30 = nan(nT, nC);
-GFP_radius_2_40 = nan(nT, nC);
-GFP_radius_2_50 = nan(nT, nC);
+for threshold =  threshold
+    eval(['GFP_radius_' strrep(sprintf('%.2f', thresholds(k)), '.', '_') ' = nan(nT, nC)'])
+end
 
 % Use control colonies for calibration
 maxGFP = median(MAX_GFP(:, end-4:end), 2);
@@ -299,7 +288,7 @@ parfor k = 1:nT*nC
     fdata = imclose(fdata, se);
     
     % Loop over thresholds
-    for threshold = 1.0:0.1:2.5
+    for threshold = thresholds
 
         % Apply the threshold
         bw = fdata > threshold * medianGFP_t;
@@ -330,43 +319,12 @@ parfor k = 1:nT*nC
 
         % Store radius and mean signals
         if ~isempty(stat)
-            switch round(threshold, 1)
-                case 1.0
-                    GFP_radius_1_00(k) = stat.EquivDiameter/2*dp;
-                case 1.1
-                    GFP_radius_1_10(k) = stat.EquivDiameter/2*dp;
-                case 1.2
-                    GFP_radius_1_20(k) = stat.EquivDiameter/2*dp;
-                case 1.3
-                    GFP_radius_1_30(k) = stat.EquivDiameter/2*dp;
-                case 1.4
-                    GFP_radius_1_40(k) = stat.EquivDiameter/2*dp;
-                case 1.5
-                    GFP_radius_1_50(k) = stat.EquivDiameter/2*dp;
-                case 1.6
-                    GFP_radius_1_60(k) = stat.EquivDiameter/2*dp;
-                case 1.7
-                    GFP_radius_1_70(k) = stat.EquivDiameter/2*dp;
-                case 1.8
-                    GFP_radius_1_80(k) = stat.EquivDiameter/2*dp;
-                case 1.9
-                    GFP_radius_1_90(k) = stat.EquivDiameter/2*dp;
-                case 2.0
-                    GFP_radius_2_00(k) = stat.EquivDiameter/2*dp;
-                case 2.1
-                    GFP_radius_2_10(k) = stat.EquivDiameter/2*dp;
-                case 2.2
-                    GFP_radius_2_20(k) = stat.EquivDiameter/2*dp;
-                case 2.3
-                    GFP_radius_2_30(k) = stat.EquivDiameter/2*dp;
-                case 2.4
-                    GFP_radius_2_40(k) = stat.EquivDiameter/2*dp;
-                case 2.5
-                    GFP_radius_2_50(k) = stat.EquivDiameter/2*dp;
+            for threshold = thresholds
+                eval(['GFP_radius_' strrep(sprintf('%.2f', thresholds(k)), '.', '_') '(k) = stat.EquivDiameter/2*dp;'])
             end
         end
 
-        if outputImages && round(threshold, 2) == 1.8
+        if outputImages && round(threshold, 2) == 1.95
             % Detect boundary
             gfpBorder = zeros(size(bw));
             for i = 1:size(bw, 1)
