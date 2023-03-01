@@ -1,8 +1,6 @@
 % Clear variables
 close all; clearvars; clc;
 
-parpool('local', 32);
-
 outputImages = true;
 
 % Create paths to load and store data from
