@@ -54,7 +54,7 @@ MAX_GFP = zeros(nT, nC);
 
 
 % Loop over series
-parfor k = 1:nT*nC
+for k = 1:nT*nC
 
     s = ceil(k/ nT);
     t = mod(k-1, nT) + 1;
@@ -261,7 +261,7 @@ maxGFP = repmat(maxGFP, 1, nC);
 bgGFP  = repmat(bgGFP, 1, nC);
 
 % Loop over series
-parfor k = 1:nT*nC
+for k = 1:nT*nC
 
     s = ceil(k/ nT);
     t = mod(k-1, nT) + 1;
@@ -319,9 +319,7 @@ parfor k = 1:nT*nC
 
         % Store radius and mean signals
         if ~isempty(stat)
-            for threshold = thresholds
-                eval(['GFP_radius_' strrep(sprintf('%.2f', thresholds(k)), '.', '_') '(k) = stat.EquivDiameter/2*dp;'])
-            end
+            eval(['GFP_radius_' strrep(sprintf('%.2f', threshold), '.', '_') '(k) = stat.EquivDiameter/2*dp;'])
         end
 
         if outputImages && round(threshold, 2) == 1.95
