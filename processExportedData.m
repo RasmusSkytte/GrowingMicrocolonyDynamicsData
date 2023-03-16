@@ -246,8 +246,8 @@ end
 thresholds = unique([1:0.1:2.5 1.8:0.025:2.0]); % Adding extra fidelity around where \nu seems to be
 
 GFP_radius = nan(nT, nC);
-for threshold =  threshold
-    eval(['GFP_radius_' strrep(sprintf('%.2f', thresholds(k)), '.', '_') ' = nan(nT, nC)'])
+for threshold = thresholds
+    eval(['GFP_radius_' strrep(sprintf('%.2f', threshold), '.', '_') ' = nan(nT, nC)'])
 end
 
 % Use control colonies for calibration
